@@ -1,0 +1,25 @@
+.formRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.rowLabel {
+    flex-basis: 200px;
+}
+.rowControl {
+    flex-grow: 7;
+}
+.subRow {
+    display: flex;
+    flex-direction: row;
+}
+.rowControlbox {
+    flex-basis: 100px;
+}
+.rowSubLabel {
+    flex-basis: 600px;
+}
+.rowSubText {
+    flex-grow: 4;
+}

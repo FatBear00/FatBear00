@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div id="banner">
+            <h1>แบบขออนุญาตจัดโครงการ/กิจกรรมนักศึกษา</h1>
+        </div>
+        <div id="content">
+            <form>
+                <div class="formRow">
+                    <label for="project_name" class="roeLabel">โครงการ</label>
+                    <input type="text" class="rowControl" name="project_name">
+                </div>
+                <div class="formRow">
+                    <label for="fullname" class="roeLabel">ชื่อ-นามสกุล</label>
+                    <input type="text" class="rowControl" name="fullname">
+                </div>
+                <div class="formRow">
+                    <label for="program" class="roeLabel">สาขาวิชา</label>
+                    <input type="text" class="rowControl" name="program">
+                </div>
+                <div class="formRow">
+                    <label for="faculty" class="roeLabel">คณะ</label>
+                    <select name="faculty" id="faculty" class="rowControl">
+                        <option value="edu">คณะครุศาสตร์</option>
+                        <option value="agi">คณะเทตโนโลยีเกษตร</option>
+                        <option value="huso">คณะมนุษย์ศาสตร์และสังคมศาสตร์</option>
+                        <option value="sci">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                        <option value="fms">คณะวิทยาการจัดการ</option>
+                        <option value="tech">คณะเทคโนโลยีอุสาหกรรม</option>
+                        <option value="alw">คณะนิติศาสตร์</option>
+                        <option value="csit">คณะวิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ</option>
+                        <option value="comart">คณะนิเทศศาสตร์</option>
+                        <option value="nursing">คณะพยาบาลศาสตร์</option>
+                    </select>
+                </div>
+                <div class="formRow">
+                    <label for="projectPermit" class="roeLabel">ขออนุญาตจัดกิจกรรม</label>
+                    <input type="text" class="rowControl" name="projectPermit">
+                </div>
+                <div class="formRow">
+                    <label for="location" class="roeLabel">ณ (สถานที่)</label>
+                    <input type="text" class="rowControl" name="location">
+                </div>
+                <div class="formRow">
+                    <label for="project_date" class="roeLabel">วันที่จัดกิจกรรม</label>
+                    <input type="text" class="rowControl" name="project_date">
+                </div>
+                <div class="formRow">
+                    <label for="target" class="roeLabel">เป้าหมาย (จำนวนผู้เข้าร่วม)</label>
+                    <input type="text" class="rowControl" name="target">
+                </div>
+                <div class="formRow">
+                    <label for="target" class="roeLabel">เป้าหมาย (จำนวนผู้เข้าร่วม)</label>
+                    <div class="rowControl formRow">
+                        <label for="pt01">ด้านการส่งเสริมศิลปะและวัฒนธรรม</label>
+                        <input type="checkbox" name="project_type" id="pt01">
+                    </div>
+                    <div class="formRow">
+                        <label for="target" class="roeLabel">แยกเป็นกิจกรรมแต่ละด้านดังนี้</label>
+                        <div class="rowControl formRow">
+                            <input tyt="checkbox" name="project_type" id="pt01" class="rowControl">
+                            <label for="pt01" class="roeLabel">ด้านการส่งเสริมศิลปะและวัฒนธรรม</label>
+                            <input type="text" name="ptHr" id="ptHr01" class="roeSubText" placeholder="ชั่วโมง">
+                         </div>
+                        <div class="subRow">
+                            <input type="checkbox" name="project_type" id="pt02" class="rowControl">
+                            <label for="pt01" class="roeLabel">ด้านกีฬา</label>
+                            <input type="text" name="ptHr" id="ptHr01" class="roeSubText" placeholder="ชั่วโมง">
+                        </div>
+                        <div class="subRow">
+                            <input type="checkbox" name="project_type" id="pt03" class="rowControl">
+                            <label for="pt01" class="roeLabel">ด้านการส่งเสริมกิจกรรม</label>
+                            <input type="text" name="ptHr" id="ptHr01" class="roeSubText" placeholder="ชั่วโมง">
+                        </div>
+                        <div class="subRow">
+                            <input type="checkbox" name="project_type" id="pt02" class="rowControl">
+                            <label for="pt01" class="roeSubLabel">ด้านวิชาการ</label>
+                            <input type="text" name="ptHr" id="ptHr02" class="roeSubText" placeholder="ชั่วโมง">
+                        </div>
+                        <div class="subRow">
+                            <input type="checkbox" name="project_type" id="pt03" class="rowControl">
+                            <label for="pt01" class="roeSubLabel">ด้านกีฬาหรือส่งเสริมสุขภาพ</label>
+                            <input type="text" name="ptHr" id="ptHr03" class="roeSubText" placeholder="ชั่วโมง">
+                        </div>
+                        <div class="subRow">
+                            <input type="checkbox" name="project_type" id="pt04" class="rowControl">
+                            <label for="pt01" class="roeSubLabel">ด้านบำเพ็ญประโยชน์หรือรักษาสิ่งแวดล้อม</label>
+                            <input type="text" name="ptHr" id="ptHr04" class="roeSubText" placeholder="ชั่วโมง">
+                        </div>
+                        <div class="subRow">
+                            <input type="checkbox" name="project_type" id="pt05" class="rowControl">
+                            <label for="pt01" class="roeSubLabel">ด้านเสริมสร้างคุณธรรมและจริยธรรม</label>
+                            <input type="text" name="ptHr" id="ptHr01" class="roeSubText" placeholder="ชั่วโมง">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
